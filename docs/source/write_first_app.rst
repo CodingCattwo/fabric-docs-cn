@@ -162,7 +162,7 @@
 
 让我们更进一步看一下这个程序。使用一个编辑器（比如， atom 或 visual studio）打开 ``query.js`` 。
 
-应用程序开始的时候就从 ``fabric-network`` 模块引入了两个关键的类``FileSystemWallet`` 和 ``Gateway`` 。这两个类将用于定位钱包中 ``user1`` 的身份，这个身份将用于连接网络。
+应用程序开始的时候就从 ``fabric-network`` 模块引入了两个关键的类 ``FileSystemWallet`` 和 ``Gateway`` 。这两个类将用于定位钱包中 ``user1`` 的身份，这个身份将用于连接网络。
 
 .. code:: bash
 
@@ -378,11 +378,6 @@ FabCar 智能合约
    {"colour":"Black","make":"Honda","model":"Accord","owner":"Dave"}
 
 ``CAR12`` 的主人已经从 Tom 变成了 Dave。
-
-.. note:: In a real world application the smart contract would likely have some
-          access control logic. For example, only certain authorized users may
-          create new cars, and only the car owner may transfer the car to
-          somebody else.
 
 .. note:: 在真实世界中的一个应用程序里，智能合约应该有一些访问控制逻辑。比如，只有某些有权限的用户能够创建新的 car，并且只有 car 的拥有者才能够将 car 交换给其他人。
 
